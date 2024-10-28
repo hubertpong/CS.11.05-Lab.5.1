@@ -237,13 +237,13 @@ public class Main {
 
         }
         System.out.println(Arrays.toString(one));
-        String [] highconfidence = new String[two];
-        for(int j = 0; j< highconfidence.length; j++){
-            highconfidence[j] = one[j];
+        String [] high = new String[two];
+        for(int j = 0; j< high.length; j++){
+            high[j] = one[j];
         }
-        System.out.println(Arrays.toString(highconfidence));
+        System.out.println(Arrays.toString(high));
 
 
-        return highconfidence;
+        return high;
     }
 }
